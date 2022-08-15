@@ -1,0 +1,256 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<section
+  class="bg-banner-sm bg-cover bg-center bg-no-repeat h-[50vh] sm:bg-cover sm:bg-banner md:h-[80vh]"
+>
+  <div
+    class="container text-primary-dark flex flex-col justify-center items-end h-full"
+  >
+    <h2 class="font-['Noto_Sans_TC'] sm:text-4xl">
+      Promise-Desert 2020 早春系列
+    </h2>
+    <h1 class="text-2xl font-bold sm:text-8xl">看得清，才能看得遠</h1>
+    <button
+      class="text-xl font-medium bg-primary text-white px-3 py-1.5 mt-1 hover:bg-primary-dark active:bg-primary-light active:text-primary"
+      type="button"
+    >
+      立即購買
+    </button>
+  </div>
+</section>
+<section class="bg-primary-light py-10 sm:py-20">
+  <div class="container">
+    <h2 class="text-2xl font-bold text-primary-dark text-center sm:text-7xl">
+      用專業的心，做專業的事
+    </h2>
+    <ul class="grid gap-6 mt-6 sm:grid-cols-2 md:grid-cols-4">
+      <li>
+        <img
+          class="block m-auto max-w-[100px]"
+          src="./assets/images/home-section2-1.png"
+          alt="time icon"
+        />
+        <h3 class="text-2xl font-bold mt-4 text-center text-primary-dark">
+          單一價格
+        </h3>
+        <p class="mt-2">
+          無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。
+        </p>
+      </li>
+      <li>
+        <img
+          class="block m-auto w-[100px]"
+          src="./assets/images/home-section2-2.png"
+          alt="heart icon"
+        />
+        <h3 class="text-2xl font-bold mt-4 text-center text-primary-dark">
+          20 分鐘即可取件
+        </h3>
+        <p class="mt-2">
+          為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快
+          20 分鐘即可完成。
+        </p>
+      </li>
+      <li>
+        <img
+          class="block m-auto w-[100px]"
+          src="./assets/images/home-section2-3.png"
+          alt="glasses icon"
+        />
+        <h3 class="text-2xl font-bold mt-4 text-center text-primary-dark">
+          安心售後服務
+        </h3>
+        <p class="mt-2">
+          我們提供長達 120
+          天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
+        </p>
+      </li>
+      <li>
+        <img
+          class="block m-auto w-[100px]"
+          src="./assets/images/home-sectioin2-4.png"
+          alt="price icon"
+        />
+        <h3 class="text-2xl font-bold mt-4 text-center text-primary-dark">
+          關於鏡片
+        </h3>
+        <p class="mt-2">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="container py-10 text-center sm:py-20">
+  <h2 class="text-2xl text-primary-dark font-bold sm:text-7xl">經典系列鏡框</h2>
+  <ul class="grid gap-6 mt-6 md:grid-cols-3 sm:mt-12">
+    <li class="sm:w-1/2 sm:mx-auto md:w-auto">
+      <img src="./assets/images/home-section3-1.png" alt="optical image" />
+      <h3 class="text-4xl text-primary font-bold italic mt-2 sm:text-7xl">
+        OPTICAL
+      </h3>
+    </li>
+    <li class="sm:w-1/2 sm:mx-auto md:w-auto">
+      <img src="./assets/images/home-section3-2.png" alt="sungalsses image" />
+      <h3 class="text-4xl text-primary font-bold italic mt-2 sm:text-7xl">
+        SUNGLASSES
+      </h3>
+    </li>
+    <li class="sm:w-1/2 sm:mx-auto md:w-auto">
+      <img src="./assets/images/home-section3-3.png" alt="functional image" />
+      <h3 class="text-4xl text-primary font-bold italic mt-2 sm:text-7xl">
+        FUNCTIONAL
+      </h3>
+    </li>
+  </ul>
+</section>
+<section class="bg-co-brnad py-10 text-center sm:py-20">
+  <div class="container">
+    <h2 class="text-2xl text-white font-bold sm:text-7xl">聯名設計鏡框</h2>
+    <ul class="md:grid grid-cols-2 mt-6 sm:mt-12">
+      <li>
+        <img
+          class="sm:hidden"
+          src="./assets/images/home-section4-1-sm.png"
+          alt="DOUBLE A+ image"
+        />
+        <img
+          class="hidden sm:block"
+          src="./assets/images/home-section4-1.png"
+          alt="DOUBLE A+ image"
+        />
+        <h3 class="bg-white text-7xl text-primary font-bold italic py-2">
+          DOUBLE A+
+        </h3>
+      </li>
+      <li class="mt-6 md:mt-0">
+        <img
+          class="sm:hidden"
+          src="./assets/images/home-section4-2-sm.png"
+          alt="YOUTH"
+        />
+        <img
+          class="hidden sm:block"
+          src="./assets/images/home-section4-2.png"
+          alt="YOUTH"
+        />
+        <h3 class="bg-white text-7xl text-primary font-bold italic py-2">
+          YOUTH
+        </h3>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="container py-10 sm:py-20">
+  <h2 class="text-2xl text-primary-dark font-bold text-center sm:text-7xl">
+    顧客推薦
+  </h2>
+  <ul
+    class="grid gap-6 font-['Noto_Sans_TC'] mt-6 sm:mt-12 sm:grid-cols-2 md:grid-cols-4"
+  >
+    <li class="shadow-md rounded">
+      <img src="./assets/images/home-section5-1.png" alt="Jessy" />
+      <div class="p-4">
+        <h3 class="font-medium">Jessy</h3>
+        <p class="mt-2">眼鏡品質優良，下次還會想來這邊購買！</p>
+        <p class="text-sm text-light mt-[72px]">2021/06/20</p>
+      </div>
+    </li>
+    <li class="shadow-md rounded">
+      <img src="./assets/images/home-section5-2.png" alt="凱倫" />
+      <div class="p-4">
+        <h3 class="font-medium">凱倫</h3>
+        <p class="mt-2">
+          做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
+        </p>
+        <p class="text-sm text-light mt-[72px]">2021/04/18</p>
+      </div>
+    </li>
+    <li class="shadow-md rounded">
+      <img src="./assets/images/home-section5-3.png" alt="悠悠" />
+      <div class="p-4">
+        <h3 class="font-medium">悠悠</h3>
+        <p class="mt-2">
+          謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
+        </p>
+        <p class="text-sm text-light mt-[72px]">2020/12/25</p>
+      </div>
+    </li>
+    <li class="shadow-md rounded">
+      <img src="./assets/images/home-section5-4.png" alt="Kyuan" />
+      <div class="p-4">
+        <h3 class="font-medium">Kyuan</h3>
+        <p class="mt-2">服務很好，品質沒有任何問題，非常喜歡。</p>
+        <p class="text-sm text-light mt-[72px]">2020/10/31</p>
+      </div>
+    </li>
+  </ul>
+</section>
+<section class="bg-primary-light">
+  <div class="container py-20">
+    <h2 class="text-2xl text-primary-dark font-bold text-center sm:text-7xl">
+      聯絡我們
+    </h2>
+    <p
+      class="w-full m-auto mt-6 sm:w-3/4 md:w-2/3 lg:w-1/2 md:text-xl md:mt-12"
+    >
+      我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
+    </p>
+    <form class="flex flex-col w-full mx-auto mt-6 sm:w-3/4 md:w-2/3 lg:w-1/2">
+      <label for="name">姓名</label>
+      <input
+        class="mt-2 h-9"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="陳小明"
+      />
+      <label class="mt-4" for="tel">聯絡電話</label>
+      <input
+        class="mt-2 h-9"
+        type="tel"
+        name="tel"
+        id="tel"
+        placeholder="0912-345-678"
+      />
+      <label class="mt-4" for="email">電子郵件</label>
+      <input
+        class="mt-2 h-9"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="example@email.com"
+      />
+      <label class="mt-4" for="message">意見反應</label>
+      <textarea
+        class="mt-2 resize-none"
+        name="message"
+        id="message"
+        rows="5"
+        placeholder="請輸入您的意見"
+      ></textarea>
+      <div class="flex items-start mt-4 sm:items-center">
+        <input
+          class="w-[18px] h-[18px] border-2 border-black rounded-sm mr-2"
+          type="checkbox"
+          id="isAgree"
+          name="isAgree"
+          placeholder="example@email.com"
+        />
+        <label for="isAgree">
+          我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
+        </label>
+      </div>
+      <div class="w-full sm:w-2/3 mx-auto mt-12">
+        <input
+          class="bg-primary text-white py-4 w-full"
+          type="submit"
+          value="確認送出"
+        />
+      </div>
+    </form>
+  </div>
+</section>
